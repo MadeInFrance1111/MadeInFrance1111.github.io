@@ -1,0 +1,222 @@
+body {
+  margin: 0px;
+  color: #252525;
+  font-size: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1, h2, h3 {
+  color: #252525;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #01A1FD;
+}
+
+a:hover {
+  color: #e84089;
+}
+
+.btn-warning{
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+}
+.button-blue {
+  background-color: #01A1FD;
+}
+
+.button-blue:hover {
+  background-color: #e84089;
+}
+
+#banner{
+  text-align: center;
+  background-image: linear-gradient(10deg, rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url("images/Banner.jpeg");
+  background-size: cover;
+  padding: 170px 30px;;
+}
+
+#banner h1, #banner h2 {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  margin-bottom: 30px;
+}
+
+#banner h1 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+#banner h2 {
+  font-size: 25px;
+  padding-bottom: 150px;
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.email {
+  padding-left: 10px;
+  padding-top: 2px;
+}
+#footer {
+  padding: 30px;
+  color: black;
+}
+
+#footer a {
+  color: #586F7C;;
+  font-size: 40px;
+}
+#footer a:hover {
+  font-size: 42px;
+  color: #20323D;
+}
+
+.section {
+  padding: 50px;
+}
+
+.section h1, .section h3 {
+  margin-bottom: 50px;
+}
+
+.section-blue {
+  background-color: #01A1FD;
+}
+
+.section-grey {
+  background: #d8dce4;
+}
+
+.section-produits {
+  padding: 50px 10px;
+}
+
+.section-dark {
+  background: #C9D7F8;;
+}
+
+.section-produits h1 {
+  color: black;
+  margin-bottom: 50px;
+}
+
+.section-produits h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.section-produits p {
+  font-size: 17px;
+}
+
+.product-picture {
+  height: 400px;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.card {
+  padding: 0px;
+  margin-top: 20px;
+}
+
+
+.mynavbar {
+  background-color: #C9D7F8;
+  height: 70px;
+  border-bottom: 1px solid grey;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-fixed {
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.navbar-links {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none !important;
+  color: black;
+  margin-right: 30px;
+}
+
+.navbar-links a:hover {
+  color: red;
+}
+
+.navbar-avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar-avatar:hover {
+  cursor: pointer;
+}
+
+.navbar-panier {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 25px;
+}
+.navbar-panier:hover {
+  width: 40.8px;
+  height: 40.8px;
+  object-fit: cover;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.hamburger {
+  margin-right: 20px;
+  color: black;
+}
+
+.hamburger:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.newsletter-button {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
